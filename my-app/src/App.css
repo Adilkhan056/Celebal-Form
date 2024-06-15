@@ -1,0 +1,45 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+form div {
+  margin-bottom: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+h1{
+  text-align: center;
+  color: blue;
+}
+form input, form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+form button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form span {
+  color: red;
+  font-size: 12px;
+}
+
+.success {
+  text-align: center;
+}
+
+.success p {
+  font-size: 18px;
+}
+
